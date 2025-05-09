@@ -1,0 +1,23 @@
+
+{
+    "name": "ZUKA-AI PAIR",
+    "description": "Web Session Generator",
+    "logo": "https://files.catbox.moe/41lt2l.jpg",
+    "repository": "https://github.com/botdeveloper2026/ZUKA-AI",
+    "keywords": ["ᴢᴜᴋᴀ-ᴀɪ"],
+    "success_url": "/", 
+    "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
+    "env": {      
+      "PORT": {
+        "description": "Port for web app.4000,5000,3000... any!",
+        "value": "5000",
+        "required": false 
+      },
+      "MESSAGE": {
+        "description": "Just Leave This Blank",
+        "value": "",
+        "required": false 
+      }
+    }   
+
+}
